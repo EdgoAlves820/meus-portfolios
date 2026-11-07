@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url("/imagem/1.png");
+  background-size: cover;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.head .logo {
+  margin: 50px 0 0 100px;
+}
+
+.head .logo h2 {
+  color: #fff;
+  background: #a146bc;
+  padding: 7px 20px;
+  font-style: italic;
+}
+
+.head .nav {
+  margin: 60px 0 0 100px;
+}
+
+.head .nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+
+.head .nav .nav-item li {
+  list-style: none;
+}
+
+.head .nav .nav-item a {
+  text-decoration: none;
+  color: #a146bc;
+  text-align: center;
+  align-items: center;
+  padding: 7px 20px;
+  font-weight: bold;
+}
+
+.head .nav .nav-item a:hover {
+  border-bottom: 2px solid #a146bc;
+}
+
+.slogan {
+  margin: 70px 100px;
+  width: 30%;
+}
+
+.slogan h2 {
+  width: 100%;
+  font-size: 2em;
+  color: #a146bc;
+}
+
+.slogan span {
+  width: 100%;
+  font-size: 2em;
+  color: #d133ff;
+  font-weight: 800;
+}
+
+.container {
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 280px;
+  height: 490px;
+  border: 2px solid transparent;
+  box-shadow: 10px 10px 15px rgba(192, 183, 183), -10px -10px 15px #dde1e7;
+  border-radius: 20px;
+}
+
+.container .box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .box .heading {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container .box .heading h2 {
+  color: #d133ff;
+  text-align: center;
+}
+
+.container .box .form {
+  margin: 10px 0;
+  align-items: center;
+  width: 140%;
+}
+
+.container .box .form .plane {
+  width: 100%;
+  background: none;
+  border-style: none;
+  outline: none;
+  border-bottom: 1px solid #d133ff;
+  color: #d133ff;
+}
+
+.container .box .btn {
+  width: 130%;
+  margin: 10px 0;
+}
+
+.container .box .btn .signup {
+  width: 100%;
+  padding: 7px 20px;
+  background: #d133ff;
+  color: #fff;
+  border-style: none;
+  outline: none;
+  font-weight: 700;
+  font-style: 1em;
+}
+
+.container .box .btn .signup:hover {
+  background: #a146bc;
+  cursor: pointer;
+}
+
+.container .box .or {
+  margin-top: 10px;
+}
+
+.container .box .or p {
+  font-style: italic;
+  color: #d133ff;
+  text-align: center;
+}
+
+.container .box .or h3 {
+  font-style: italic;
+  color: #d133ff;
+  text-align: center;
+  font-size: 0.8em;
+  /*cursor: pointer;*/
+}
+
+/*.container .box .or h3:hover {
+    border-bottom: 1px solid #d133ff;
+}*/
+
+.container .box .social {
+  margin-top: 25px;
+}
+
+.container .box .social .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box .social .item li {
+  list-style: none;
+}
+
+.container .box .social .item li img {
+  width: 50%;
+  transition: 0.2s ease all;
+}
+
+.container .box .social .item li img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/*@media screen and (min-width: 768px) {
+	
+}*/
